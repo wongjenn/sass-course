@@ -2,10 +2,10 @@
   "name": "sass-course",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run gulp && concurrently \"npm run glup-watch\" \"npm run lite\"",
+    "start": "npm run gulp && concurrently \"npm run gulp-watch\" \"npm run lite\"",
     "lite": "lite-server",
     "gulp": "gulp",
-    "gulp-watch": "gulp-watch"
+    "gulp-watch": "gulp watch"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
